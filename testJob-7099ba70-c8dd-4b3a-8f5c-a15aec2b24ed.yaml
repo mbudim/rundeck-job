@@ -7,6 +7,15 @@
   nodeFilterEditable: false
   plugins:
     ExecutionLifecycle: null
+  schedule:
+    month: '*'
+    time:
+      hour: '09'
+      minute: '39'
+      seconds: '0'
+    weekday:
+      day: '*'
+    year: '*'
   scheduleEnabled: true
   sequence:
     commands:
