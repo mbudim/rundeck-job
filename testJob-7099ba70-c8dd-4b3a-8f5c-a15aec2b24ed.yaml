@@ -19,6 +19,12 @@
   scheduleEnabled: true
   sequence:
     commands:
+    - configuration:
+        export: endpoint
+        group: export
+        value: https://priktiew.com
+      nodeStep: false
+      type: export-var
     - exec: echo "hello world"
     keepgoing: false
     strategy: node-first
